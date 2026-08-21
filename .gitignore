@@ -1,0 +1,17 @@
+# runtime data lives in ~/antfarm, not here, but just in case
+workspace/
+private/
+webcache/
+*.sqlite
+*.sqlite-journal
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# consolidated archive of prior copies and run data - never commit
+_archive/
+
+# sandbox mount artefacts
+.fuse_hidden*
